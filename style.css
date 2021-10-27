@@ -1,0 +1,97 @@
+body {
+  background-color: #EED6C4;
+  color: #000000;
+  font-family: Merienda;
+  background-image: url('images/marbre.jpeg');
+}
+
+h1 {
+  color: #960200;
+  font-family: Merienda;
+  font-weight: 150;
+  letter-spacing: 5px;
+  font-size: 60px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+h2  {
+  color: #6B4F4F;
+  font-family: Satisfy;
+  font-weight: 150;
+  font-size: 30px;
+}
+
+a   {
+  text-decoration: none;
+  color: #960200;
+}
+
+a:hover {
+  color: #046865;
+}
+
+#photo {
+  width: 200px;
+}
+
+/*custom design with class*/
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: #EED6C4;
+  padding: 30px;
+  box-shadow: 0px 10px 15px rgb(107, 79, 79);
+  border-radius: 15px;
+  margin: 30px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn {
+  background-color: #6B4F4F;
+  color: #FFF3E4;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
+.btn:hover {
+  background-color: #960200;
+  color: #FFF3E4;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #960200;
+}
+.list-inline i:hover {
+  color: #6B4F4F;
+}
+
+/*design adjustments using id*/
+#introduction p {
+  margin-bottom: 40px;
+}
+
